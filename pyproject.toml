@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ta-consensus"
+version = "0.2.0"
+description = "Tolerance-aware size intervention for discrete ensemble consensus"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = ["numpy", "scipy", "scikit-learn", "numba"]
+
+[tool.setuptools.packages.find]
+include = ["ta", "ta.*"]

@@ -3,6 +3,8 @@
 Python implementation of **TA: Tolerance-Aware Size Intervention for Discrete
 Ensemble Consensus**, by YuFei Cheng, Peng Wu, and Liang Du.
 
+Submitted to ICASSP 2027.
+
 TA combines normalized partition evidence with a cluster-size penalty that is
 inactive within a tolerance interval. Its parameters control intervention
 strength, tolerance width, and the relative weight of lower-side violations.
